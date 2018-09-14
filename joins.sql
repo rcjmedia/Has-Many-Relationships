@@ -162,7 +162,7 @@ ON comments.commentspostsid = posts.id
 WHERE posts.created_at > '2015-07-14';
 -- 25 ms
 
--- 1. Find all users who comment about 'programming' ( should have 336 results)
+-- 1. Find all users who comment about 'programming' ( should have 337 results)
 SELECT users.username AS "users"
 FROM comments 
 LEFT JOIN users 
